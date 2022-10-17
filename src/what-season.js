@@ -20,7 +20,7 @@ function getSeason(date) {
     Object.keys(date).length === 0 &&
     !date.isPrototypeOf(Date)
   ) {
-    console.dir(Object.keys(date).length);
+    //console.dir(Object.keys(date).length);
     const month = date.getMonth();
     if (month === 0 || month === 1 || month === 11) {
       return "winter";
